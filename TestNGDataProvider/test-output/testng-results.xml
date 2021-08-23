@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-23T17:52:55 IST" name="Default suite" finished-at="2021-08-23T17:54:36 IST" duration-ms="101419">
+    <groups>
+    </groups>
+    <test started-at="2021-08-23T17:52:55 IST" name="Default test" finished-at="2021-08-23T17:54:36 IST" duration-ms="101419">
+      <class name="TestNGDataProvider.dataProviderTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:52:55 IST" name="setupBrowser" finished-at="2021-08-23T17:52:58 IST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="facebookSignupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:52:58 IST" name="facebookSignupTest" data-provider="excelData" finished-at="2021-08-23T17:54:20 IST" duration-ms="81685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[One]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jun]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSignupTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:54:20 IST" name="closeBrowser" finished-at="2021-08-23T17:54:20 IST" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:54:20 IST" name="setupBrowser" finished-at="2021-08-23T17:54:23 IST" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="facebookSignupTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:54:23 IST" name="facebookSignupTest" data-provider="excelData" finished-at="2021-08-23T17:54:35 IST" duration-ms="12746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[email@mail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Jul]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookSignupTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGDataProvider.dataProviderTest@2abf4075]" started-at="2021-08-23T17:54:35 IST" name="closeBrowser" finished-at="2021-08-23T17:54:36 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGDataProvider.dataProviderTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
